@@ -1,5 +1,5 @@
 # if else statements
-age = 23;
+age = 24;
 
 if (age > 18):
     print("You are adult")

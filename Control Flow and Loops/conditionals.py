@@ -1,7 +1,14 @@
 # if else statements
-age = 24;
+
+age = int(input("Enter your age: "))
 
 if (age > 18):
-    print("You are adult")
-else :
-    print("You are not adult")
+    print("You can drive")
+elif (age == 18):
+    print("Let's schedule an interview")
+elif (age == 0):
+    print("Hey you are just born")
+else:
+    print("You cannot drive")
+
+print("End of Program")
